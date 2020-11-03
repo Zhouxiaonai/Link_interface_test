@@ -1,14 +1,13 @@
 import requests
 import hashlib
 import time
-import json
 
 nowtime = lambda: int(round(time.time() * 1000))
 timestamp = str(nowtime())
 
 
 def get_sign():
-    SECRET = '73e17e142e06125d272e94537e19756a'
+    SECRET = '24daf37e02dca1de477a4c0aefb31b8e'
     md5 = timestamp + "#" + SECRET
     m1 = hashlib.md5()
     m1.update(md5.encode("utf-8"))
@@ -25,29 +24,17 @@ def get_para(object):
     return str1
 
 
-# url = 'http://link-stage.bi.sensetime.com'
-# url = 'http://127.0.0.1:8099'
-url = "http://10.9.244.116"
+url = 'http://link-stage.bi.sensetime.com'
 
 headers = {
     "Content-Type": "application/json;charset=UTF-8",
     "Origin": "http://172.20.5.57",
 }
-
-getdata = {
-    "name": "1312313123123122",
-    "mobile": "123",
-    "remark": "",
-    # "type": '1',
-    "icNumber": "1234000",
-    "jobNumber": "120003",
-    # "duid":"",
+postdata = {
     "sign": get_sign(),
-    "app_key": "8a4bad370696b9af",
+    "app_key": "dba4d6b2cb70282b",
     "timestamp": timestamp,
 }
 
-# response = requests.post(url+"/api/v2/device/register?"+get_para(getdata), data=json.dumps(postdata), headers=headers)
-print(get_para(getdata))
-response = requests.post(url + "/api/v1/user?1&groups=3&" + get_para(getdata), headers=headers)
+response = requests.get(url + "/api/v3/record/list?" + get_para(postdata), headers=headers)
 print(response.text)

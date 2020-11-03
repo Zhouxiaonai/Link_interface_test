@@ -2,8 +2,10 @@
 
 import rsa
 from rsa import common, transform, core
-
 import base64
+
+test_dic = {"name":"zzz","gender":'female',"age":"67"}
+print(test_dic.get("name"))
 
 
 def get_pic_base64(picPath):
