@@ -1,0 +1,18 @@
+{
+    "case1":{"trace_id": "1602750097446","description":"k34k","code":"10001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case2":{"trace_id": "1602750097446","description":"","code":"10001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case3":{"trace_id": "1602750097446","description":"k34kajfkajfkaldfjlakfjlajdflajdlfjaldjfladjkflajdfklajdkfljaldskjflakjdsflajk","code":"10001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case4":{"trace_id": "1602750097446","description":"中文内容","code":"10001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case5":{"trace_id": "1602750097446","description":"特殊字符!@#@$#%$^%&^*&(*&(<>","code":"10001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case6":{"trace_id": "1602750097446","description":"<% alert(\"Hello!\") %>","code":"10001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case7":{"trace_id": "1602750097446","description":"强制开门","code":"10002","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case8":{"trace_id": "1602750097446","description":"门磁超时","code":"10003","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case9":{"trace_id": "1602750097446","description":"密码攻击告警","code":"10004","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case10":{"trace_id": "1602750097446","description":"蓝牙电量过低","code":"10005","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case11":{"trace_id": "1602750097446","description":"热像仪连接异常","code":"10006","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case12":{"trace_id": "1602750097446","description":"摄像头污染","code":"20001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case13":{"trace_id": "1602750097446","description":"非活体攻击","code":"20002","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case14":{"trace_id": "1602750097446","description":"消防告警","code":"20003","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""},
+    "case15":{"trace_id": "1602750097446","description":"提取特征失败","code":"40001","user_id":"","event_time":"1602750097446","status":"1","alarm_photo":"","rectangle":"","x":"","y":""}
+
+}
